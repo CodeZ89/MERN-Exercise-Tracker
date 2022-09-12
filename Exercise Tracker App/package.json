@@ -1,0 +1,19 @@
+{
+  "name": "assignment6_290",
+  "version": "1.0.0",
+  "description": "MongoDB Web App",
+  "main": "users_controller.mjs",
+  "scripts": {
+    "test": "\"echo \\ \"Error: no test specified\\\" && exit 1\"",
+    "start": "nodemon users_controller.mjs"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-async-handler": "^1.2.0",
+    "mongoose": "^6.3.3",
+    "nodemon": "^2.0.16"
+  }
+}
